@@ -211,7 +211,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#f4efe8] leading-[1.08]">
                   Handcrafted Architecture. <br />
-                  <span className="bronze-gradient-text">Generational</span> Heritage.
+                  <span className="text-[#C86428]">Generational</span> Heritage.
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg text-[#d0d7e4] font-light max-w-2xl leading-relaxed">
                   For over forty years, Gabriel Builders has shaped the most distinguished private lake and mountain sanctuaries across the Carolinas. Built without compromise, designed for legacy.
@@ -241,7 +241,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </span>
                 <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#f4efe8] leading-tight">
                   Hand-Hewn Timber. <br />
-                  <span className="bronze-gradient-text">Indigenous</span> Fieldstone.
+                  <span className="text-[#C86428]">Indigenous</span> Fieldstone.
                 </h2>
                 <p className="text-sm sm:text-base text-[#d0d7e4] max-w-xl leading-relaxed">
                   Every Douglas fir timber, mortise-and-tenon truss, and natural dry-stacked fireplace is executed by our permanent master craftsmen and dedicated site managers.
@@ -270,10 +270,10 @@ export const Hero: React.FC<HeroProps> = ({
                 </span>
                 <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#f4efe8] leading-tight">
                   Where Natural Topography <br />
-                  <span className="bronze-gradient-text">Meets Architectural Mastery.</span>
+                  <span className="text-[#C86428]">Meets Architectural Mastery.</span>
                 </h2>
                 <p className="text-sm sm:text-base text-[#d0d7e4] max-w-xl leading-relaxed">
-                  From deepwater docks on Lake Keowee to 3,000-foot ridge-lines at The Cliffs, we seamlessly weave panoramic vistas into every interior living space.
+                  From deepwater docks on Lake Keowee to 3,000-foot ridge-lines at The Cliffs, we anchor panoramic vistas into every interior living space.
                 </p>
                 <div className="pt-2">
                   <button
