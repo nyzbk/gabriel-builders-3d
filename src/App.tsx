@@ -27,7 +27,7 @@ export const App: React.FC = () => {
       <Navbar onOpenConsultation={handleOpenConsultation} />
       
       <main>
-        {/* Section #1: 180-frame Architectural Walkthrough */}
+        {/* Section #1: 60-frame Architectural Walkthrough */}
         <Hero onOpenConsultation={handleOpenConsultation} />
 
         {/* Section #2: Signature Custom Estates */}
