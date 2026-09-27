@@ -16,8 +16,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
   const [, startTransition] = useTransition();
 
   const [, setIsLoaded] = useState(false);
-  const [loadCount, setLoadCount] = useState(0);
-
+  
   // Jack Roberts spring physics: stiffness: 100, damping: 30
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -52,8 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
     firstImg.onload = () => {
       imgs[0] = firstImg;
       setIsLoaded(true);
-      setLoadCount(1);
-      renderFrame(1);
+            renderFrame(1);
 
       let nextIndex = 2;
       const loadBatch = () => {
@@ -65,8 +63,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
           img.src = `/frames/frame_${frameNum}.webp?v=240`;
           img.onload = () => {
             imgs[idx - 1] = img;
-            setLoadCount((prev) => prev + 1);
-            if (currentFrameRef.current === idx) {
+                        if (currentFrameRef.current === idx) {
               renderFrame(idx);
             }
           };
@@ -197,8 +194,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
           </div>
 
           <div className="text-right font-mono text-[11px] text-[#8A959E]">
-            <div className="text-[#C86428] font-semibold">240-FRAME HEAVY TIMBER LOG</div>
-            <div>BUFFER: {loadCount}/{TOTAL_FRAMES} FRAMES ({Math.round((loadCount / TOTAL_FRAMES) * 100)}%)</div>
+            <div className="text-[#C86428] font-semibold">BESPOKE MOUNTAIN & LAKE ESTATES</div>
+            <div>LAKE KEOWEE • 40 YEARS OF MASTERY</div>
           </div>
         </div>
 
